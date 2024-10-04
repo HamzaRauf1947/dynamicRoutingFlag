@@ -11,7 +11,7 @@ export default function CountryDetails({ params }: { params: { country_name: str
         return (
             <div className="flex flex-col items-center justify-center h-screen text-center shadow-xl bg-white">
                 <h1 className="text-3xl font-bold text-red-600 mb-4">Country Not Found</h1>
-                <p className="text-lg text-gray-700 mb-4">We're sorry, but we couldn't find the country you were looking for.</p>
+                <p className="text-lg text-gray-700 mb-4">We&apos;re sorry, but we couldn&apos;t find the country you were looking for.</p>
                 <Link href="/country" className="text-blue-500 hover:underline text-lg">
                     Go back to Country List
                 </Link>
